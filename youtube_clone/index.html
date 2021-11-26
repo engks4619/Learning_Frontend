@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" rossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="left_menu">
+            <div class="toggleBtn">
+                <a href="">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                    <span class="title">Youtube</span>
+                </a>
+            </div>
+        </div>
+        <div class="right_menu">
+            <div class="icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Overwatch</li>
+                <li>#GamePlay</li>
+                <li>#DogCu</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    Overwach: Mccree GamePlay Moment #1 오버워치: 맥크리 게임플레이 순간 #1
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Actions-->
+        <ul class="actions">
+            <li>
+                <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-flag"></i><span>Report</span></button>
+            </li>
+        </ul>
+        <!-- Channel Description-->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/avatar.png" alt="" />
+                <div class="info">
+                    <span class="name">DogCu</span>
+                    <span class="subscribers">1M Subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+
+    <section class="upNext">
+        <span class="title">Up Next</span>
+        <ul>
+            <li class="item">
+                <img src="image/1.png" alt="">
+                <div class="info">
+                    <span class="title">로봇</span>
+                    <span class="name">Robot</span>
+                    <div class="span views">10M views</div>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/2.png" alt="">
+                <div class="info">
+                    <span class="title">에임 연습법</span>
+                    <span class="name">DogCu</span>
+                    <div class="span views">1.2K views</div>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/3.png" alt="">
+                <div class="info">
+                    <span class="title">봄이 vlog</span>
+                    <span class="name">봄이</span>
+                    <div class="span views">10M views</div>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
